@@ -23,14 +23,3 @@ Multi-Arch: same
 Description: VDPAU implementation for sunxi SoCs
  It supports decoding of MPEG1 and MPEG2, some limited MPEG4 types,
  H.264 and on H3/A64 it also decodes H.265.
-
-Package: libvdpau-sunxi1-dev
-Section: libdevel
-Architecture: any
-Depends:
- libump (= ${binary:Version}),
- ${misc:Depends},
-Description: VDPAU implementation for sunxi SoCs (development files)
- It supports decoding of MPEG1 and MPEG2, some limited MPEG4 types,
- H.264 and on H3/A64 it also decodes H.265. This package is need to build
- against libvdpau-sunxi.

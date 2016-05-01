@@ -1,4 +1,4 @@
-libvdpau-sunxi (0.5~git.20160309.c2fb693-2~xenial1.0) xenial; urgency=medium
+libvdpau-sunxi (0.5~git.20160309.c2fb693-3~xenial1.0) xenial; urgency=medium
 
   * Remove dev package, fix install.
 
